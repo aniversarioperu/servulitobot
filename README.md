@@ -1,14 +1,15 @@
 # Qué hace este bot?
 Este bot vigila la página web que tú desees asegurándose que el servidor está
-funcionando correctamente. Si el servidor se ha caído, @ServulitoBot enviará un
-mensaje de texto al celular que tú escojas, además de emitir notificaciones vía
-*mentions* en tuiter además de *direct message*.
+funcionando correctamente. Si el servidor se ha caído,
+[@ServulitoBot](https://twitter.com/ServulitoBot) enviará un mensaje de texto
+al celular que tú escojas, además de emitir notificaciones vía *mentions* en
+tuiter además de *direct message*.
 
-# Cómo instalar y configurar @ServulitoBot
+### Cómo instalar y configurar @ServulitoBot
 Tú puedes instalar este bot en tu computadora al hacer click en **Download**.
-Además deberas abrir una cuenta en <http://plivo.com>. @ServulitoBot ordenará a
-Plivo que envíe un mensaje de texto al determinado celular avisando que el
-servidor se ha caído.
+Además deberas abrir una cuenta en <http://plivo.com>. [@ServulitoBot](https://twitter.com/ServulitoBot)
+ordenará a Plivo que envíe un mensaje de texto al determinado celular avisando
+que el servidor se ha caído.
 
 Es necesario que en el *Dashboard* de Plivo consigas tus llaves **AUTH ID** y
 **AUTH TOKEN** (ver imagen).
