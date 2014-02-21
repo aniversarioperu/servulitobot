@@ -14,7 +14,7 @@ que el servidor se ha caído.
 Es necesario que en el *Dashboard* de Plivo consigas tus llaves **AUTH ID** y
 **AUTH TOKEN** (ver imagen).
 
-![](plivio_keys.png)
+![](plivo_keys.png)
 
 También debes crear un *app* en tu cuenta de tuiter y obtener las **llaves** de
 autenticación para que tu tuiterbot pueda enviar mensajes. En esta dirección
