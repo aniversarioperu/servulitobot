@@ -1,5 +1,5 @@
 # Qué hace este bot?
-Este bot vigila la página web que tú desees asegurándose que el servidor está
+Este bot vigila la página web que tú desees asegurándose que el servidor esté
 funcionando correctamente. Si el servidor se ha caído,
 [@ServulitoBot](https://twitter.com/ServulitoBot) enviará un mensaje de texto
 al celular que tú escojas, además de emitir notificaciones vía *mentions* en
