@@ -1,0 +1,9 @@
+# Twitter Consumer keys
+key = ""
+secret = ""
+token = ""
+token_secret = ""
+
+# keys from http://plivo.com
+auth_id = ""
+auth_token = ""

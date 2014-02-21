@@ -44,6 +44,7 @@ instalados:
     
     * sudo pip install flask plivo
     * sudo pip install requests
+    * sudo pip install requests_oauthlib
 
 ## Cómo correr @ServulitoBot?
 Este bot corre desde la línea de comandos usando ciertos argumentos
