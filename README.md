@@ -5,7 +5,7 @@ funcionando correctamente. Si el servidor se ha caído,
 al celular que tú escojas, además de emitir notificaciones vía *mentions* en
 tuiter además de *direct message*.
 
-### Cómo instalar y configurar @ServulitoBot
+## Cómo instalar y configurar @ServulitoBot
 Tú puedes instalar este bot en tu computadora al hacer click en **Download**.
 Además deberas abrir una cuenta en <http://plivo.com>. [@ServulitoBot](https://twitter.com/ServulitoBot)
 ordenará a Plivo que envíe un mensaje de texto al determinado celular avisando
@@ -35,6 +35,12 @@ llaves dentro del campo correspondiente en el archivo.
     auth_token = ""
 
 
-# Dependencias
-    sudo pip install flask plivo
-    sudo pip install requests
+## Dependencias
+Para instalar y correr este bot necesitas tener los siguientes programas
+instalados:
+
+* Python 2.7+
+* Además las siguientes librerías:
+    
+    * sudo pip install flask plivo
+    * sudo pip install requests
