@@ -44,3 +44,18 @@ instalados:
     
     * sudo pip install flask plivo
     * sudo pip install requests
+
+## Cómo correr @ServulitoBot?
+Este bot corre desde la línea de comandos usando ciertos argumentos
+importantes:
+
+    python servulitobot.py -w http://miPaginaWeb.pe -m 'el server se ha caido' -d +51900755700 -t aniversarioperu
+
+Los parámetros significan lo siguiente:
+
+    -w es la página web a ser vigilada
+    -m es el mensaje que se enviará como mensaje de texto al celular y como mensajes vía tuiter.
+    -d es el número telefónico del celular destinatario
+    -t es la cuenta de tuiter detinatario del mensaje via mention y dm.
+
+
