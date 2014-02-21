@@ -7,7 +7,7 @@ tuiter además de *direct message*.
 
 ## Cómo instalar y configurar @ServulitoBot
 Tú puedes instalar este bot en tu computadora al hacer click en **Download ZIP**.
-Además deberas abrir una cuenta en <http://plivo.com>. [@ServulitoBot](https://twitter.com/ServulitoBot)
+Además deberás abrir una cuenta en <http://plivo.com>. [@ServulitoBot](https://twitter.com/ServulitoBot)
 ordenará a Plivo que envíe un mensaje de texto al determinado celular avisando
 que el servidor se ha caído.
 
