@@ -94,7 +94,7 @@ def main():
     parser.add_argument('-d', '--destination', action='store',
             metavar='+51900755700',
             help='Destination mobile phone number',
-            required=True, dest='destination')
+            required=False, dest='destination')
     parser.add_argument('-t', '--twitter_user', action='store',
             metavar='uterope',
             help='Twitter username (twitter handle)',
@@ -104,14 +104,17 @@ def main():
 
     website = args.website.strip()
     message = args.message.strip()
-    destination = args.destination.strip()
     twitter_user = args.twitter_user.strip()
+
+    if args.destination:
+        destination = args.destination.strip()
 
     server_up = is_server_up(website)
 
     if server_up == False:
         # our server is down. Call the guys
-        send_sms(message, destination)
+        if destination:
+            send_sms(message, destination)
         tell_using_twitter(message, twitter_user)
 
 
